@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: rgba(220, 220, 220, 1);
+  font-family: sans-serif;
+}
+
+div#conteiner {
+  background-color: rgba(220, 220, 220, .5);
+  width: 40%;
+  height: 90vh;
+  float: left;
+  margin-left: 30%;
+  margin-top: 5vh;
+  border-radius: .5rem;
+}
+div#topo {
+  background-color: rgba(0,0,0,.6);
+  width: 98%;
+  padding: 15px 0;
+  text-align: center;
+  margin: 4px 1%;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+}
+section#add-todo {
+  background-color: rgba(0,0,0,.6);
+  width: 98%;
+  height: 30vh;
+  float: left;
+  margin: 0 1%;
+}
+fieldset {
+  width: 96%;
+  height: 27.5vh;
+  margin-left: 2%;
+  float: left;
+  margin-top: 5px;
+}
+legend {
+  margin-left: 2%;
+  text-transform: capitalize;
+  padding: 0 1%;
+}
+input#titulo, textarea#descricao {
+  width: 90%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5%;
+}
+textarea#descricao {
+  margin-top: 2px;
+  width: 91.7%;
+  height: 90px;
+  padding: 2px;
+}
+fieldset div {
+  width: 93%;
+  height: 30px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 3px;
+}
+input.btn-form1, input.btn-form2 {
+  background-color: rgba(0,0,0,0);
+  width: 20%;
+  height: 30px;
+  float: left;
+  margin-left: 29%;
+  border: 0;
+  color: green;
+  border: 1px solid green;
+  border-radius: .5rem;
+}
+input.btn-form2 {
+  margin-left: 1%;
+  color: red;
+  border: 1px solid red;
+}
+input.btn-form1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+input.btn-form2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+section#lista-toDo {
+  background-color: rgba(0,0,0,.6);
+  width: 98%;
+  height: 50vh;
+  float: left;
+  margin: 5px 1%;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  padding: 2px 0;
+}
+
+div#lista-to-do-vazia {
+  width: 100%;
+  padding: 28% 0;
+  float: left;
+  text-align: center;
+}
+
+div.tarefas {
+  background-color: rgba(220,220,220,.1);
+  width: 98%;
+  height: 57px;
+  float: left;
+  margin: 1px .5% 2px .5%;
+  text-align: justify;
+  padding: 2px .5%;
+}
+div.t-conteudo {
+  width: 90%;
+  height: 100%;
+  float: left;
+}
+div.t-controle {
+  width: 10%;
+  height: 100%;
+  float: right;
+}
+.t-btns {
+  background-color: rgba(0,0,0,0);
+  border: 0;
+  padding: 3px 6px;
+  float: left;
+  margin-left: 4px;
+  margin-top: 14px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+}
+.t-btns:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#t-btns {
+  margin-left: 3px;
+}
+#btn-form1 {
+  margin-left: 5%;
+}
+#btn-form11 {
+  margin-left: 15%;
+}
+div#editar-detalhes {
+  background-color: rgba(0,0,0,.9);
+  width: 100%;
+  height: 100vh;
+  float: left;
+  position: absolute;
+}
+div#editar-tarefa {
+  background-color: #2d2929;
+  width: 40%;
+  height: 50vh;
+  float: left;
+  margin-top: 20vh;
+  margin-left: 30%;
+  border-radius: .5rem;
+  box-shadow: 0px 1px 1px 2px white;
+}
+div#editar-tarefa fieldset {
+  height: 95%;
+}
+div#editar-tarefa input {
+  margin-top: 5px;
+}
+div#editar-tarefa textarea {
+  margin-top: 4px;
+  height: 60%;
+}
+div#datas {
+  background-color: white;
+  width: 91.8%;
+  height: 20px;
+  padding: 2.5px .5%;
+  color: black;
+  font-size: 10pt;
+}
